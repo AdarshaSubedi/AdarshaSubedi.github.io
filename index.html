@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7e3efc2bac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Adarsha</title>
+</head>
+<body>
+    <div class="loading-container" id="loadingContainer">
+        <div class="loading" id="loading">
+            <img src="./img/buffering.gif" alt="loading...">
+        </div>
+    </div>
+    <div class="main" id="mainContainer" hidden>
+        <div class="description">  
+            <div class="display-picture">
+                <img id="profileImage" alt="my-picture">
+            </div>
+            <h2 id="profileName"></h2>
+            <p class="bio" id="bio"></p>
+            <a id="githubLink" target="_blank"><i class="fab fa-github-alt"></i></a>
+            <p id="followersInfo"></p>
+        </div>
+
+        <div class="projects" id="projects">
+            <h2>My Projects</h2>
+        </div>
+
+    </div>
+
+    <script src="./js/api.js"></script>
+</body>
+</html>
